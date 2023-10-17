@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+ font-family: century;
+}
+header{
+    background-image: url("bg.jpg");
+height: 100vh;
+background position: center;
+background-size: cover;
+}
+
+ul{
+    float: right;
+    margin-top: 24px;
+}
+ul li{
+    display: inline;
+}
+ ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: yellow;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-size: small;
+    transition: 0.6s;
+ }
+ 
+ ul li a:hover{
+    background-color: wheat;
+    color: black;
+    
+ }
+
+ .logo img
+{
+    float:left;
+    height: auto;
+    width: 200px;
+    margin-top: 10px;
+    border: 3px seashell;
+    border-radius: 15px;
+   
+}
+
+.main{
+    margin: auto;
+    max-width: 1300px;
+}
+.khan{
+    position: absolute;
+    top: 45%;
+    right: 20%;
+
+}
+.khan h1{
+    font-size: 45px;
+    border: 3px chocolate;
+    border-radius: 15px;
+    color: yellow;
+}
+.khan h1:hover{
+    background-color: aliceblue;
+    color: blue;
+
+}
